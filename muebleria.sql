@@ -361,7 +361,7 @@ ALTER TABLE `venta`
 COMMIT;
 
 DROP USER IF EXISTS 'luis'@'localhost';
-CREATE USER 'user'@'localhost' identified by 'luis';
+CREATE USER 'luis'@'localhost' identified by 'luis';
 GRANT ALL PRIVILEGES ON baseDeDatos.* TO luis@localhost;
 FLUSH PRIVILEGES;
 
